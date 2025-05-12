@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <style>
+    body{
+      background-color: rgb(148, 65, 137);
+      position: absolute;
+      
+    }
+    .container{
+      margin-top: 30px;
+      position: absolute;
+      left: 40vw;
+    }
+    .buttons{
+      /* padding: 5px; */
+      position: relative;
+      left: 20vw;
+      margin-top: 500px;
+    }
+    button:hover{
+      background-color: darkolivegreen;
+    }
+    button{
+      border-radius: 20px;
+      background-color: darkgreen;
+      color: black;
+      height: 50px;
+      width:100px;
+      padding: 5px;
+      margin-right:10px ;
+    }
+    img{
+      
+      width: 300px;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+<img id="Photo" src="/images/d1.jpeg" alt="">
+  </div>
+  <div class="buttons">
+    <button id="Previous"> Previous</button>
+    <button id="Volumeup"> VolumeUp</button>
+    <button id="Pause"> Pause</button>
+    <button id="Play"> Play</button>
+    <button id="Restart"> Restart</button>
+    <button id="Volumedown"> VolumeDown</button>
+    <button id="Next"> Next</button>
+  </div>
+  <script src="songs.js"></script>
+</body>
+</html>
